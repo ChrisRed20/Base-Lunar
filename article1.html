@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>Base Lunar</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img class="icon" src="/img/luna.png" alt="base lunar icon" srcset="">
+        </div>
+        <nav>
+            <a href="index.html" class="nav-link">Inicio</a>
+            <a href="planet.html" class="nav-link">Planetarios</a>
+            <a href="sobre.html" class="nav-link">Sobre nosotros</a>
+            <a href="coment.html" class="nav-link">Comentarios</a>
+        </nav>
+    </header>
+    <main>
+        <div class="div-main">
+            <div class="container">
+                <div class="content">
+                    <h1>¿Por que pesas menos en la luna?</h1>
+                    <p>Cuanto mayor es la distancia entre dos cuerpos, menor es la fuerza de atracción. 
+                        Dado que la Luna tiene aproximadamente 1/49 de la masa de la Tierra, 
+                        tendrá menos gravedad.</p>
+                    <p>La aceleración de la gravedad en la Tierra es 6 veces mayor que la
+                        aceleración de la gravedad en la Luna, por lo que el peso de un cuerpo
+                        en la Tierra es 6 veces mayor que el peso del mismo cuerpo en la Luna.</p>
+                    <h2>Entonces, ¿cual es el peso de una persona en la luna?</h2>
+                    <p>El valor de g en la superficie lunar es de 1,6 m/s². Con este valor, el
+                        peso de un astronauta con una masa de 70 kg, por ejemplo, sería de
+                        solo 112 newtons cuando estuviera en la Luna. En la Tierra, el mismo
+                        astronauta pesa casi 700 newtons.</p>
+                </div>
+            </div>
+            <div class="imag-art1">
+                <img class="imag1" src="/img/R.jpg" alt="">
+            </div>
+        </div>
+        <div class="cabe">
+            <h1>¿Quieres saber cuanto pesas en la luna?</h1>
+            <p>Con esta calculadora podras saberlo! solo introduce
+                tus datos a continuacion
+            </p>
+        </div>
+        <div class="calculadora" style="color: aliceblue; text-align:center">
+            <div id="calculator">
+                <input type="text" id="weight" placeholder="Peso en kg">
+                <button onclick="convertToMoonWeight()">Convertir a Peso Lunar</button>
+                <input type="text" id="result" disabled>
+            </div>
+            <script src="/js/Calculadora.js"></script>
+        <div class="astronauta">
+            <img src="./img/astronauta.png" alt="">
+        </div>
+        </div>
+    </main>
+</body>
+</html>
